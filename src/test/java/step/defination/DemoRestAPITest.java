@@ -1,4 +1,4 @@
-package stepde.fination;
+package step.defination;
 
 public class DemoRestAPITest {
 
