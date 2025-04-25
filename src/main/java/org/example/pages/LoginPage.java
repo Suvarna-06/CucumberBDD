@@ -6,6 +6,8 @@ public class LoginPage {
 
     private WebDriver driver;
 
+    //By Locators
+    private By emailInputLocator =By.name("email");
 
 
 
