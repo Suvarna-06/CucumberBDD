@@ -15,3 +15,14 @@ Feature: Login Functionality for OpenCart E-commerce Website
       Given I have entered invalid "<username> and <password>"
       When I click on the login button
       Then I should see an error message indicating "<error_message>"
+
+    Examples:
+
+    |username            | password        |error_message
+    |invalidid@email.com | invalidPassword | Warning: No match for E-Mail Address and/or Password                                |
+    |abcccc              | validPassword   | Warning: No match for E-Mail Address and/or Password                              |
+    |valid@emial.com     | abccc           | Warning: No match for E-Mail Address and/or Password                          |
+
+  Scenario: Navigating to the forgotten password page
+    When I click on the "Forgotten Password" link
+    Then I should be redirected to the password reset page
