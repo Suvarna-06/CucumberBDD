@@ -18,62 +18,45 @@
 
 
 
-    <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
     <dependency>
-      <groupId>org.seleniumhq.selenium</groupId>
-      <artifactId>selenium-java</artifactId>
-      <version>4.31.0</version>
+      <groupId>io.cucumber</groupId>
+      <artifactId>cucumber-junit-platform-engine</artifactId>
+      <version>7.11.1</version>
+      <scope>test</scope>
     </dependency>
 
     <dependency>
       <groupId>io.cucumber</groupId>
-      <artifactId>cucumber-java8</artifactId>
-      <version>7.8.1</version>
-      <scope>test</scope>
+      <artifactId>cucumber-java</artifactId>
+      <version>7.11.1</version>
     </dependency>
 
-    <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
-    <dependency>
-      <groupId>io.cucumber</groupId>
-      <artifactId>cucumber-testng</artifactId>
-      <version>7.7.0</version>
-    </dependency>
-
-    <dependency>
-      <groupId>org.apache.poi</groupId>
-      <artifactId>poi</artifactId>
-      <version>5.2.3</version>
-    </dependency>
-
-    <!-- Rest Assured -->
-    <dependency>
-      <groupId>io.rest-assured</groupId>
-      <artifactId>rest-assured</artifactId>
-      <version>5.5.0</version>
-      <scope>test</scope>
-    </dependency>
-
-    <!-- TestNG -->
-    <dependency>
-      <groupId>org.testng</groupId>
-      <artifactId>testng</artifactId>
-      <version>7.10.0</version>
-      <scope>test</scope>
-    </dependency>
-
-    <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
     <dependency>
       <groupId>io.cucumber</groupId>
       <artifactId>cucumber-junit</artifactId>
-      <version>7.6.0</version>
+      <version>7.11.1</version>
       <scope>test</scope>
     </dependency>
 
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>7.7.1</version>
       <scope>test</scope>
     </dependency>
+
+    <dependency>
+      <groupId>io.cucumber</groupId>
+      <artifactId>cucumber-testng</artifactId>
+      <version>7.11.1</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.seleniumhq.selenium</groupId>
+      <artifactId>selenium-java</artifactId>
+      <version>4.8.2</version>
+    </dependency>
+
+
   </dependencies>
 </project>
