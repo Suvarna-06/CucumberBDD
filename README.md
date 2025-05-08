@@ -47,27 +47,9 @@ pom.xml                 # Maven dependencies
 README.md               # Project documentation
 ```
 
-.
-├── src
-│   ├── main
-│   │   └── java
-│   │       └── com
-│   │           └── example
-│   │               └── pages
-│   │                   └── LoginPage.java        # Page Object class for Login
-│   └── test
-│       ├── java
-│       │   └── com
-│       │       └── example
-│       │           ├── stepdefinitions
-│       │           │   └── LoginSteps.java       # Step definitions for Login
-│       │           └── TestRunner.java           # Test runner class
-│       └── resources
-│           └── features
-│               └── Login.feature                 # Cucumber feature file
-│           └── testng.xml                        # TestNG configuration file
-├── pom.xml                                       # Maven POM file with dependencies
-└── README.md                                     # This README file
+
+
+<img width="269" alt="image" src="https://github.com/user-attachments/assets/f44d5954-772c-40d8-aabf-18fd6eba5c3d" />
 
 
 
