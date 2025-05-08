@@ -47,6 +47,17 @@ pom.xml                 # Maven dependencies
 README.md               # Project documentation
 ```
 
+
+
+
+<img width="393" alt="image" src="https://github.com/user-attachments/assets/d5599ce8-fe02-41f5-b08b-fefc08e16ef7" />
+
+
+
+
+
+
+
 ---
 
 ## 🧪 How to Run Tests
