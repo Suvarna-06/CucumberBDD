@@ -7,6 +7,7 @@
 
 ---
 
+
 ## 📋 Project Overview
 
 This comprehensive framework implements **Behavior-Driven Development (BDD)** for end-to-end functional test automation. Built with a robust tech stack including **Java**, **Selenium WebDriver**, **Cucumber**, **TestNG**, and **Maven**, it follows the **Page Object Model (POM)** design pattern for maximum maintainability and scalability.
